@@ -1,0 +1,5 @@
+<phpunit
+        bootstrap="autoload.php"
+        debug="true"
+        processUncoveredFilesFromWhitelist="false">
+</phpunit>

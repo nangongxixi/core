@@ -1,0 +1,55 @@
+{
+  "name": "stcer/j-core",
+  "description": "The core components of my PHP applications",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stcer",
+      "email": "7443930@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "j\\base\\": "src/base",
+      "j\\contracts\\": "src/contracts",
+      "j\\cache\\": "src/cache",
+      "j\\called\\": "src/called",
+      "j\\debug\\": "src/debug",
+      "j\\di\\": "src/di",
+      "j\\error\\": "src/error",
+      "j\\event\\": "src/event",
+      "j\\filesystem\\": "src/filesystem",
+      "j\\log\\": "src/log",
+      "j\\security\\": "src/security",
+      "j\\net\\": "src/net",
+      "j\\tool\\": "src/tool"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+
+  "require": {
+    "php": ">=5.4.0"
+  },
+
+  "require-dev": {
+    "stcer/ide-doc": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packages.9z.cn/"
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    },
+    {"packagist": false}
+  ],
+
+  "config" : {
+    "secure-http" : false
+  }
+}
